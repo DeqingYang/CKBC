@@ -53,4 +53,3 @@ To reproduce the results published in the paper:
 
         $ python SIM_BERT_RGAT_ConvKB.py
         
-It is important to note that before training, a new folder is created to store the model weights according to the folder address in the code

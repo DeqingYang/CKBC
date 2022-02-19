@@ -158,7 +158,7 @@ class BertLayer(nn.Module):
         super(BertLayer, self).__init__()
         # bert_model = "bert-large-uncased" # bert-base-cased
         self.dataset = dataset
-        output_dir = "/home/lbc/jujinhao/commonsense-kg-completion-master/bert_model_embeddings/nodes-lm-conceptnet/"
+        output_dir = "/data/ConceptNet/nodes-lm-conceptnet/"
         #output_dir = "/home/lbc/jujinhao/commonsense-kg-completion-master/conceptnet_emb/"
         # elif self.dataset == "atomic":
         #    output_dir = "bert_model_embeddings/nodes-lm-atomic/"

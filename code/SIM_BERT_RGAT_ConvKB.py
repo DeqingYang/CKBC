@@ -173,11 +173,11 @@ print('Initialised Successfully')
 
 
 # 存储2跳邻居的信息
-#if(args.get_2hop):
-#    file = args.data + "/2hop.pickle"
-#    with open(file, 'wb') as handle:
-#        pickle.dump(Corpus_.node_neighbors_2hop, handle,
-#                    protocol=pickle.HIGHEST_PROTOCOL)
+if(args.get_2hop):
+    file = args.data + "/2hop.pickle"
+    with open(file, 'wb') as handle:
+        pickle.dump(Corpus_.node_neighbors_2hop, handle,
+                    protocol=pickle.HIGHEST_PROTOCOL)
 
 
 if(args.use_2hop):
@@ -439,5 +439,5 @@ def evaluate_conv(args, unique_entities, train_network):
 
 
 train_gat(args)
-#train_conv(args)
-#evaluate_conv(args, Corpus_no_sim.unique_entities_train, train_network_no_sim)
+train_conv(args)
+evaluate_conv(args, Corpus_no_sim.unique_entities_train, train_network_no_sim)

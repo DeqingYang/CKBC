@@ -1,7 +1,7 @@
 # CKBC_Model
 
 ### Dataset
-The ConceptNet datasets are stored in the data folder, and the training, test, and validation sets are train.txt, test.txt, and dev.txt, respectively. the fine-tuned trained BERT model weights from the paper are stored in the [link](https://1drv.ms/u/s!Ak_d2MD968tEhl98h6gnEjeoGG2v?e=mQuuwd), and the folder in which the link is downloaded should be placed in the ConceptNet folder.
+The ConceptNet datasets are stored in the data folder, and the training, test, and validation sets are train.txt, test.txt, and dev.txt, respectively. the fine-tuned trained BERT model weights from the paper are stored in the [link](https://1drv.ms/u/s!Ak_d2MD968tEhl98h6gnEjeoGG2v?e=2WIcso), and the folder in which the link is downloaded should be placed in the ConceptNet folder.
 
 ### Training
 

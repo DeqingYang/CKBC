@@ -47,6 +47,8 @@ The ConceptNet datasets are stored in the data folder, and the training, test, a
 
 `--drop_conv`: Dropout probability for conv layer.
 
+The specific value settings for all parameters are included in the code
+
 ### Reproducing results
 
 To reproduce the results published in the paper:      

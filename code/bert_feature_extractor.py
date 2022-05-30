@@ -156,12 +156,8 @@ def convert_nodes_to_examples(node_list):
 class BertLayer(nn.Module):
     def __init__(self, dataset):
         super(BertLayer, self).__init__()
-        # bert_model = "bert-large-uncased" # bert-base-cased
         self.dataset = dataset
         output_dir = "/data/ConceptNet/nodes-lm-conceptnet/"
-        #output_dir = "/home/lbc/jujinhao/commonsense-kg-completion-master/conceptnet_emb/"
-        # elif self.dataset == "atomic":
-        #    output_dir = "bert_model_embeddings/nodes-lm-atomic/"
 
         self.filename = os.path.join(output_dir, self.dataset + "_bert_embeddings.pt")
         print(self.filename)

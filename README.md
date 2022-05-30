@@ -51,5 +51,5 @@ The ConceptNet datasets are stored in the data folder, and the training, test, a
 
 To reproduce the results published in the paper:      
 
-        $ python SIM_BERT_RGAT_ConvKB.py
+        $ python src/SIM_BERT_RGAT_ConvKB.py
         

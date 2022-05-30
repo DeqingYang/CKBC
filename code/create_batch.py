@@ -33,7 +33,7 @@ class Corpus:
 
         if(get_2hop):
             self.graph = self.get_graph()
-            #self.node_neighbors_2hop = self.get_further_neighbors()
+            self.node_neighbors_2hop = self.get_further_neighbors()
 
         self.unique_entities_train = [self.entity2id[i]
                                       for i in unique_entities_train]

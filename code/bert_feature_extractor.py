@@ -157,7 +157,7 @@ class BertLayer(nn.Module):
     def __init__(self, dataset):
         super(BertLayer, self).__init__()
         self.dataset = dataset
-        output_dir = "/data/ConceptNet/nodes-lm-conceptnet/"
+        output_dir = "./data/ConceptNet/nodes-lm-conceptnet/"
 
         self.filename = os.path.join(output_dir, self.dataset + "_bert_embeddings.pt")
         print(self.filename)
